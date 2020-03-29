@@ -620,3 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+html, body {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
