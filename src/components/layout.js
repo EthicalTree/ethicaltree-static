@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import SEO from './seo'
 import { useStaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <SEO title="EthicalTree" />
       <div
         style={{
           margin: `0 auto`,
